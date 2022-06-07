@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Accessing the site
+Access the app here: https://ux-colab.web.app/
 
-## Available Scripts
+Both responsive on desktop and mobile.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+Space Origin is a full stack application that allows users to subscribe to newsletters and edit their preferences.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The features include:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Subscription to Newsletter Functionality
+Edit Subscription Functionality
+A database is used to store user information and subscription preferences.
 
-### `npm test`
+Users have the ability to do the following:
+Sign Up to the newsletter
+Select and edit their newsletter preferences
+View a dashboard with user sign up statistics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies used
 
-### `npm run build`
+Front end
+Reactjs
+Axios
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Back end
+Firebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Approach taken
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Planning
+Given the short timeframe for the project sprint (2 days) we wanted to maximise functionality whilst minimise work with the backend. Firebase seemed like an appropriate choice given its easy use and setup.
 
-### `npm run eject`
+The designs were created by the UX team using figma (designs below) with mobile and desktop view in mind.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Given the short timeframe we did not feel it was necessary to implement a full User Authetication login system with firebase so we opted to save user login data in local storage to allow them to edit their preferences.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![designs](https://user-images.githubusercontent.com/99111357/171306627-aa328390-5dca-4375-9b01-857a831102bc.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Lessons learnt
+To plan and revist the plan frequently to make sure you are on track or if things need to be revised
 
-## Learn More
+There is a lot that goes into a full stack application and that it can be a lot to do in 7 days
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A lot of learning is done when you are working on a project
+I learnt more about Vue, how to use styling libraries like Tailwindcss, learned how to implement simple animations and transitions.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future improvements
 
-### Code Splitting
+As there were time constraints with the project, I was not able to deliver everything I would have liked to with my app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In the future, I would like to add/improve the following:
 
-### Analyzing the Bundle Size
+The styling falls apart a little bit on medium screens, i'll need to configure the tailwind config file more.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I accidentally used multiple fonts, will need to consolidate fonts.
 
-### Making a Progressive Web App
+On the achievments page, the workout gifs shrink a little bit too much on small screens.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I did not have time to filter out all the data from the fitness api i used by equipment. The exercises are properly sorted by body part but some exercises might not require a weight field but it is there by default.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Calendar content could be a bit more interactive. At the moment there is just the modal but it would be more interesting if i could add stuff like creating a workout from the calendar etc.
