@@ -37,7 +37,7 @@ The designs were created by the UX team using figma (designs below) with mobile 
 
 Given the short timeframe we did not feel it was necessary to implement a full User Authetication login system with firebase so we opted to save user login data in local storage to allow them to edit their preferences.
 
-![designs](https://user-images.githubusercontent.com/99111357/171306627-aa328390-5dca-4375-9b01-857a831102bc.png](https://github.com/Josephhu706/Space-Colab-Project/blob/1cd3470d46d903bdb077dd7110631a927f259ea7/src/images/FigmaDesign.jpg)
+![designs](src/images/FigmaDesign.jpg)
 
 
 ## Lessons learnt
