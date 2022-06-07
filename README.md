@@ -41,25 +41,16 @@ Given the short timeframe we did not feel it was necessary to implement a full U
 
 
 ## Lessons learnt
-To plan and revist the plan frequently to make sure you are on track or if things need to be revised
 
-There is a lot that goes into a full stack application and that it can be a lot to do in 7 days
+To communicate effectively with the UX team and share ideas and determine the scope of the project. It was important to let the designers know what features were difficult to implement in the given timeframe and what features were not.
 
-A lot of learning is done when you are working on a project
-I learnt more about Vue, how to use styling libraries like Tailwindcss, learned how to implement simple animations and transitions.
+Pair programming was also very effective, especially using liveshare on VS code to simultaneously work on the project without stepping on each others toes.
 
 ## Future improvements
 
-As there were time constraints with the project, I was not able to deliver everything I would have liked to with my app.
+We could not fully implement the dashboard feature due to running out of time, this would need to be improved in the future.
 
 In the future, I would like to add/improve the following:
 
-The styling falls apart a little bit on medium screens, i'll need to configure the tailwind config file more.
+The dashboard tables are not mobile responsive and no other analytical data is displayed besides just the user information and preferences.
 
-I accidentally used multiple fonts, will need to consolidate fonts.
-
-On the achievments page, the workout gifs shrink a little bit too much on small screens.
-
-I did not have time to filter out all the data from the fitness api i used by equipment. The exercises are properly sorted by body part but some exercises might not require a weight field but it is there by default.
-
-The Calendar content could be a bit more interactive. At the moment there is just the modal but it would be more interesting if i could add stuff like creating a workout from the calendar etc.
