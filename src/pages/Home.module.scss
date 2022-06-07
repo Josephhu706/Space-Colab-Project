@@ -1,0 +1,312 @@
+$primary: #ffffff;
+$secondary: #07020d;
+$third: darkgrey;
+$input: #999999;
+
+.companyName {
+	position: absolute;
+	color: $primary;
+	z-index: 10;
+	padding: 5em;
+	font-size: 75px;
+}
+.companyName {
+	font-size: 5em;
+	padding: 2em;
+}
+
+.imgContainer {
+	max-width: 100%;
+	max-height: 100%;
+	.landingImg {
+		position: relative;
+		top: 0;
+		height: 100%;
+		width: 100%;
+	}
+}
+.textContentPreferences {
+	margin: 34px 34px;
+	max-width: 357px;
+}
+
+.newsletterTitle {
+	margin: 60px 45px 34px;
+}
+
+.newsLetter {
+	margin: 59px 34px 61px 34px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.textContent {
+	max-width: 357px;
+	p {
+		width: 80%;
+	}
+
+	h2 {
+		font-family: "Roboto condensed";
+		text-transform: uppercase;
+	}
+}
+.preferencesContainer {
+	background-color: #333333;
+	margin: 34px 35px 35px;
+	max-width: 500px;
+	.textContent {
+		padding: 20px 0;
+		margin: 20px 27px;
+	}
+	.preferencesForm {
+		padding: 0 0 20px;
+		margin: 0 27px;
+		h3 {
+			font-family: "Roboto condensed";
+		}
+		.checkBoxLabel {
+			width: 100%;
+			display: flex;
+			padding: 6px;
+		}
+		button {
+			width: 100%;
+			padding: 10px;
+			margin-top: 30px;
+			border-radius: 0;
+		}
+	}
+}
+.inputForm {
+	width: 400px;
+
+	.inputError {
+		margin: 0;
+		color: red;
+		font-size: 12px;
+		height: 20px;
+	}
+	.firstNameInput {
+		width: 45%;
+		display: inline-block;
+		margin: 0px 10px 10px 10px;
+		input {
+			width: 100%;
+			height: 20px;
+			color: $input;
+		}
+	}
+	.lastNameInput {
+		width: 45%;
+		display: inline-block;
+		margin: 10px;
+		input {
+			height: 20px;
+			width: 100%;
+			color: $input;
+		}
+	}
+	.emailInput {
+		width: 94.5%;
+		display: block;
+		margin: 0px 10px;
+
+		input {
+			height: 20px;
+			width: 100%;
+			color: $input;
+		}
+	}
+	button {
+		margin: 10px;
+		padding: 10px;
+		width: 96%;
+		border-radius: 0;
+	}
+}
+
+.preferencesContainer {
+	display: block;
+}
+.textContentLower {
+	font-size: 14px;
+	padding: 0 10px;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin-bottom: 34px;
+	h3 {
+		font-size: 15px;
+		color: #999999;
+	}
+
+	.links {
+		margin: 0 34px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		font-size: 15px;
+		padding: 0px 5px;
+		a {
+			padding: 4px 12px;
+		}
+	}
+}
+@media (max-width: 900px) {
+	.newsLetter {
+		display: block;
+	}
+	.textContent {
+		margin: 0 auto;
+		padding: 0px 10px;
+		width: 100%;
+	}
+	.companyName {
+		font-size: 55px;
+		padding: 2em;
+	}
+	.imgContainer {
+		max-width: 300%;
+		.landingImg {
+			position: relative;
+			top: 0;
+			left: -500px;
+			height: 100%;
+			width: 200%;
+		}
+	}
+	.textContent {
+		max-width: 100%;
+	}
+	.inputForm {
+		width: 100%;
+		margin: 0 auto;
+		.inputError {
+			margin: 0;
+			color: red;
+			font-size: 12px;
+			height: 20px;
+		}
+		.firstNameInput {
+			width: 47.2%;
+			display: inline-block;
+			margin: 0px 10px 10px 10px;
+			input {
+				width: 100%;
+				height: 20px;
+			}
+		}
+		.lastNameInput {
+			width: 46.5%;
+			display: inline-block;
+			margin: 10px;
+			input {
+				height: 20px;
+				width: 100%;
+			}
+		}
+		.emailInput {
+			width: 96%;
+			display: block;
+			margin: 0px 10px;
+
+			input {
+				height: 20px;
+				width: 100%;
+			}
+		}
+		button {
+			margin: 10px;
+			padding: 10px;
+			width: 97.5%;
+			border-radius: 0;
+		}
+	}
+}
+@media (max-width: 500px) {
+	.companyName {
+		font-size: 45px;
+		padding: 1em;
+	}
+	.imgContainer {
+		max-width: 300%;
+		.landingImg {
+			position: relative;
+			top: 0;
+			left: -500px;
+			height: 100%;
+			width: 300%;
+		}
+	}
+	.textContent {
+		font-size: 14px;
+		margin: 0px auto;
+		max-width: 97%;
+		h2 {
+			margin-bottom: 34px;
+		}
+		margin-bottom: 14px;
+	}
+	.landingImg {
+		position: relative;
+		top: 0;
+		left: 0px;
+		height: 100%;
+		width: 400%;
+	}
+	.inputForm {
+		width: 100%;
+		margin: 0 auto;
+		.inputError {
+			margin: 0;
+			color: red;
+			font-size: 12px;
+			height: 20px;
+		}
+		.firstNameInput {
+			width: 44.8%;
+			display: inline-block;
+			margin: 0px 10px 10px 10px;
+			input {
+				width: 100%;
+				height: 20px;
+			}
+		}
+		.lastNameInput {
+			width: 44.7%;
+			display: inline-block;
+			margin: 10px;
+			input {
+				height: 20px;
+				width: 100%;
+			}
+		}
+		.emailInput {
+			width: 93.8%;
+			display: block;
+			margin: 0px 10px;
+
+			input {
+				height: 20px;
+				width: 100%;
+			}
+		}
+		.textContentLower {
+			font-size: 14px;
+			margin: 0px auto;
+			max-width: 97%;
+		}
+		button {
+			margin: 10px;
+			padding: 10px;
+			width: 96%;
+			border-radius: 0;
+		}
+	}
+}
